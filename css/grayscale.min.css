@@ -1,0 +1,314 @@
+/*!
+ * Start Bootstrap - Grayscale v5.0.8 (https://startbootstrap.com/template-overviews/grayscale)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-grayscale/blob/master/LICENSE)
+ */
+
+/* ORIGINAL FONT */
+ /* 'Varela Round'; */
+ /* 'Share Tech Mono', monospace; */
+
+ /* COLOR USED */
+/* https://www.colorhexa.com/6d0000
+bright red, ff0000
+less bright red, dd2020
+deep red, a30000
+dark red, 6d0000 */
+
+
+
+#mainNav {
+  min-height: 56px;
+  background-color: #fff
+}
+
+#mainNav .navbar-toggler {
+  font-size: 80%;
+  padding: .75rem;
+  color: #707070;
+  border: 1px solid #707070
+}
+
+#mainNav .navbar-toggler:focus {
+  outline: 0
+}
+
+#mainNav .navbar-brand {
+  color: #161616;
+  font-weight: 700;
+  padding: .9rem 0
+}
+
+#mainNav .navbar-nav .nav-item:hover {
+  color: fade(white, 80%);
+  outline: 0;
+  background-color: transparent
+}
+
+#mainNav .navbar-nav .nav-item:active, #mainNav .navbar-nav .nav-item:focus {
+  outline: 0;
+  background-color: transparent
+}
+
+@media (min-width:992px) {
+  #mainNav {
+    padding-top: 0;
+    padding-bottom: 0;
+    border-bottom: none;
+    background-color: transparent;
+    -webkit-transition: background-color .3s ease-in-out;
+    transition: background-color .3s ease-in-out
+  }
+
+/* my name color */
+  #mainNav .navbar-brand {
+    padding: .5rem 0;
+    color: #dcdcdc;
+  }
+
+/* menu item color */
+  #mainNav .nav-link {
+    -webkit-transition: none;
+    transition: none;
+    padding: 2rem 1.5rem;
+    color: #dcdcdc;
+  }
+
+  /* menu item hover color */
+    #mainNav .nav-link:hover {
+      color: #a30000;
+      /* rgba (255,255,255,.5) */
+    }
+
+  /* menu clicked link color */
+    #mainNav .nav-link:active {
+      color: #6d0000;
+      /* #fff */
+    }
+
+/* menu bg after scroll down */
+  #mainNav.navbar-shrink {
+    background-color: #fff
+  }
+
+/* my name color after scroll */
+  #mainNav.navbar-shrink .navbar-brand {
+    color: #161616
+  }
+
+/* menu item color after scroll */
+  #mainNav.navbar-shrink .nav-link {
+    color: #161616;
+    padding: 1.5rem 1.5rem 1.25rem;
+    border-bottom: .25rem solid transparent
+  }
+
+/* sandwich color after scroll */
+  #mainNav.navbar-shrink .nav-link:hover {
+    color: #dd2020;
+    /* #161616 */
+  }
+
+  #mainNav.navbar-shrink .nav-link:active {
+    color: #dd2020;
+  }
+
+/* scroll down section selector color  */
+/* section underline color */
+  #mainNav.navbar-shrink .nav-link.active {
+    color: #a30000;
+    outline: 0;
+    border-bottom: .25rem solid #a30000;
+    /* color: #64a19d;
+    outline: 0;
+    border-bottom: .25rem solid #64a19d */
+  }
+}
+
+/* first set pf numbers top, second bottom back */
+.masthead {
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 35rem;
+  padding: 15rem 0;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, .3)), color-stop(75%, rgba(22, 22, 22, .7)), to(#161616)), url(../img/cube-design-top.jpg);
+  background: linear-gradient(to bottom, rgba(22, 22, 22, .3) 0, rgba(22, 22, 22, .7) 75%, #161616 100%), url(../img/cube-design-top.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover
+}
+
+/* first set pf numbers top, second bottom "creative design" */
+.masthead h1 {
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 2.5rem;
+  line-height: 2.5rem;
+  letter-spacing: .8rem;
+  background: -webkit-linear-gradient(rgba(255, 255, 255, .9), rgba(255, 255, 255, 0));
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text
+}
+
+.masthead h2 {
+  max-width: 20rem;
+  font-size: 1rem
+}
+
+@media (min-width:768px) {
+  .masthead h1 {
+    font-size: 4rem;
+    line-height: 4rem
+  }
+}
+
+@media (min-width:992px) {
+  .masthead {
+    height: 100vh;
+    padding: 0
+  }
+
+  .masthead h1 {
+    font-size: 6.5rem;
+    line-height: 6.5rem;
+    letter-spacing: .8rem
+  }
+
+  .masthead h2 {
+    max-width: 30rem;
+    font-size: 1.25rem
+  }
+}
+
+.btn {
+  -webkit-box-shadow: 0 .1875rem .1875rem 0 rgba(0, 0, 0, .1) !important;
+  box-shadow: 0 .1875rem .1875rem 0 rgba(0, 0, 0, .1) !important;
+  padding: 1.25rem 2rem;
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 80%;
+  text-transform: uppercase;
+  letter-spacing: .15rem;
+  border: 0
+}
+
+.btn-primary {
+  background-color: #707070;
+}
+
+.btn-primary:hover {
+  background-color: #6d0000;
+}
+
+.btn-primary:focus {
+  background-color: #a00000;
+  color: #fff;
+}
+
+.btn-primary:active {
+  background-color: #707070 !important
+}
+
+/* about section background gradient */
+.about-section {
+  padding-top: 10rem;
+  background: -webkit-gradient(linear, left top, left bottom, from(#161616), color-stop(75%, rgba(22, 22, 22, .9)), to(rgba(22, 22, 22, .8)));
+  background: linear-gradient(to bottom, #161616 0, rgba(22, 22, 22, .9) 75%, rgba(22, 22, 22, .8) 100%)
+}
+
+.about-section p {
+  margin-bottom: 5rem
+}
+
+.projects-section {
+  padding: 10rem 0
+}
+
+.projects-section .featured-text {
+  padding: 2rem
+}
+
+/* featured project section text color */
+@media (min-width:992px) {
+  .projects-section .featured-text {
+    padding: 0 0 0 2rem;
+    border-left: .5rem solid #707070;
+  }
+}
+
+.projects-section .project-text {
+  padding: 3rem;
+  font-size: 90%
+}
+
+@media (min-width:992px) {
+  .projects-section .project-text {
+    padding: 5rem
+  }
+
+/* project section underline color */
+  .projects-section .project-text hr {
+    border-color: #a30000;
+    border-width: .25rem;
+    width: 30%
+  }
+}
+
+/* footer picture */
+.signup-section {
+  padding: 10rem 0;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, .1)), color-stop(75%, rgba(22, 22, 22, .5)), to(#161616)), url(../img/cube-design-bot.jpg);
+  background: linear-gradient(to bottom, rgba(22, 22, 22, .1) 0, rgba(22, 22, 22, .5) 75%, #161616 100%), url(../img/cube-design-bot.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover
+}
+
+/* signup form location */
+/* signup form location */
+/* signup form location */
+/* signup form location */
+
+.contact-section {
+  color: #707070;
+  padding: 2rem 0 2rem;
+  text-align: center;
+  margin-bottom: -3rem;
+}
+
+.contact-section h4 {
+  font-size: 1.2rem;
+  font-family: 'Share Tech Mono', monospace;
+  text-transform: uppercase;
+  letter-spacing: .15rem
+}
+
+
+/* more about me link */
+a {
+  color: #a30000;
+}
+
+/* more about me link hover color */
+a:focus, a:hover {
+  text-decoration: none;
+  color: #a30000;
+}
+
+/* project background color, also footer color */
+.bg-black {
+  background-color: #161616 !important
+}
+
+.bg-primary {
+  background-color: #dd2020 !important
+}
+
+.text-primary {
+  color: #64a19d !important
+}
+
+footer {
+  padding: 5rem 0
+}
