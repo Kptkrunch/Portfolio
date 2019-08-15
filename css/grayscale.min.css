@@ -209,6 +209,29 @@ dark red, 6d0000 */
   background-color: #707070 !important
 }
 
+.download_1 button a {
+  color: #fff;
+}
+
+.dmdl {
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 50%;
+	border-radius:14px;
+	cursor:pointer;
+  background-color: #707070;
+	padding:7px 25px;
+  margin-bottom: 1px;
+  margin-left: 10px;
+      transition: color .15s ease-in-out,background-color .15s ease-in-out,
+      border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.download_1 button:hover {
+	background-color:#6d0000;
+}
+
+
+
 /* about section background gradient */
 .about-section {
   padding-top: 10rem;
