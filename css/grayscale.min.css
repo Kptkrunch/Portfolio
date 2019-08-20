@@ -83,7 +83,6 @@ dark red, 6d0000 */
   /* menu clicked link color */
     #mainNav .nav-link:active {
       color: #6d0000;
-      /* #fff */
     }
 
 /* menu bg after scroll down */
@@ -106,7 +105,6 @@ dark red, 6d0000 */
 /* sandwich color after scroll */
   #mainNav.navbar-shrink .nav-link:hover {
     color: #dd2020;
-    /* #161616 */
   }
 
   #mainNav.navbar-shrink .nav-link:active {
@@ -119,11 +117,12 @@ dark red, 6d0000 */
     color: #a30000;
     outline: 0;
     border-bottom: .25rem solid #a30000;
-    /* color: #64a19d;
-    outline: 0;
-    border-bottom: .25rem solid #64a19d */
   }
 }
+
+/* -------------------------------- */
+/* MASTHEAD */
+/* -------------------------------- */
 
 /* first set pf numbers top, second bottom back */
 .masthead {
@@ -180,6 +179,9 @@ dark red, 6d0000 */
     font-size: 1.25rem
   }
 }
+/* -------------------------------- */
+/* BUTTONS */
+/* -------------------------------- */
 
 .btn {
   -webkit-box-shadow: 0 .1875rem .1875rem 0 rgba(0, 0, 0, .1) !important;
@@ -209,6 +211,10 @@ dark red, 6d0000 */
   background-color: #707070 !important
 }
 
+/* -------------------------------- */
+/* DARKMANE BUTTON */
+/* -------------------------------- */
+
 .download_1 button a {
   color: #fff;
 }
@@ -230,7 +236,9 @@ dark red, 6d0000 */
 	background-color:#6d0000;
 }
 
-
+/* -------------------------------- */
+/* ABOUT */
+/* -------------------------------- */
 
 /* about section background gradient */
 .about-section {
@@ -243,20 +251,12 @@ dark red, 6d0000 */
   margin-bottom: 5rem
 }
 
+/* -------------------------------- */
+/* PROJECTS */
+/* -------------------------------- */
+
 .projects-section {
   padding: 10rem 0
-}
-
-.projects-section .featured-text {
-  padding: 2rem
-}
-
-/* featured project section text color */
-@media (min-width:992px) {
-  .projects-section .featured-text {
-    padding: 0 0 0 2rem;
-    border-left: .5rem solid #707070;
-  }
 }
 
 .projects-section .project-text {
@@ -287,11 +287,6 @@ dark red, 6d0000 */
   background-attachment: scroll;
   background-size: cover
 }
-
-/* signup form location */
-/* signup form location */
-/* signup form location */
-/* signup form location */
 
 .contact-section {
   color: #707070;
